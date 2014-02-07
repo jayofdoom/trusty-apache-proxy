@@ -1,0 +1,5 @@
+Dockerfile suitable for running an apache2 ssl-terminating proxy.
+
+I reccomend you run this by bind mounting in /etc/apache2/sites-enabled
+and a directory containing your SSL certificates. Alternatively, create
+a secondary Dockerfile FROM this with those included.
