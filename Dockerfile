@@ -7,7 +7,7 @@ MAINTAINER   Jay Faulkner "jay.faulkner@rackspace.com"
 
 RUN apt-get update && apt-get install -y apache2
 
-RUN a2enmod proxy_http ssl
+RUN a2enmod proxy_http ssl redirect
 
 EXPOSE 80 443
 
